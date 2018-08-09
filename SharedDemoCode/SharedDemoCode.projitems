@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>744006c7-f5dc-4188-aa3f-28d1e3b54175</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedDemoCode</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NamedPipePayload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Network\Authentication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Network\DataOperations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PipeComm.cs" />
+  </ItemGroup>
+</Project>
